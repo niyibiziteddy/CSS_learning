@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    position: relative;
+}
+#card_container{
+    width: 548.15px;
+    margin: 30px auto;
+    background-color: #FFF7ED;
+}
+#vanlife{
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 25.35px;
+    line-height: 40.27px;
+    top: 36px;
+    left: 26px;
+}
+header{
+    width: 548.15px;
+    height: 111.62px;
+    left: 0.06px;
+    background-color: #FFF7ED;
+}
+a{
+    top: 22.23px;
+    left: 26.85px;
+    color: #201F1D;
+    font-weight: 500;
+    font-size: 15.95px;
+    line-height: 22.92px;
+    
+}
+/* the relative elements */
+img{
+    top: 58.42px;
+    left: 26.91px;
+    width: 497.32px;
+    height: 490.35px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#simple{
+    width: 85.7109px;
+    height: 33.88px;
+    top: 50.38px;
+    left: 27.06px;
+    margin-bottom: 20.38px;
+    color: #FFEAD0;
+    background-color: #E17654;
+    font-size: 16px;
+    font-weight: 600;
+    border:1px #E17654 solid;
+    border-radius: 5px;
+}
+#explorer{
+    top: 20.38px;
+    left: 26.91px;
+    margin-top: 20.38px;
+    margin-bottom: 9.73px;
+    height: 34px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 33.65px;
+}
+#price{
+    top: 9.73px;
+    height: 45px;
+    width: 494.33px;
+    left: 26.91px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44.15px;
+}
+#price_num{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+#description{
+    height: 120px;
+    top: 9.81px;
+    font-size: 16px;
+    line-height: 23.92px;
+    font-weight: 500;
+    left: 26.91px;
+
+}
+#rent{
+    top: 21.64px;
+    left: 26.91px;
+    height: 49.83px;
+    width: 494.33px;
+    background-color: #FF8C38;
+    border-radius: 4.98px;
+    border:1px #FF8C38 solid;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+}
+footer{
+    top:84.91px;
+    height: 74.75px;
+    background-color: #252525;
+}
+#footer{
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 22.92px;
+    top: 25.68px;
+    left: 106px;
+    width: 335.87px;
+    text-align: center;
+
+}

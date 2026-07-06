@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'objective-bold';
+    src: url("./fonts/Objective-Bold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'objective-normal';
+    src: url("./fonts/Objective-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'objective-normal';
+}
+.container{
+    background: linear-gradient(rgba(74, 153, 211, 0.2),rgba(74, 153, 211, 0.1),white 60%);
+    height: 768px;
+}
+nav{
+    width: 70%;
+    margin: 0px  auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2.2rem;
+}
+nav h2{
+    color: rgba(74, 153, 211, 1);
+    font-family: 'objective-bold';
+    font-size: 2rem;
+}
+.nav-items{
+    display: flex;
+    column-gap: 3rem;
+    margin-right: 4rem;
+}
+.nav-item{
+    list-style: none;
+    font-size: 1.2rem;
+    color: rgba(38, 0, 65, 1);
+}
+.nav-items a{
+    text-decoration: none;
+}
+.first-ad{
+    display: flex;
+    height: 550x;
+    width: 70%;
+    margin: 4rem 0rem 4rem 12rem;
+}
+.e-com{
+    position: relative;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    width: 70%;
+    z-index: 0;
+    background: transparent;
+}
+.e-com h1{
+    letter-spacing: 2%;
+    color: rgba(38, 0, 65, 1);
+    font-size: 3rem;
+}
+.e-com p{
+    color: rgba(38, 0, 65, 1);
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.download-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    display: flex;
+    gap: 3rem;
+}
+.google-play, .apple{
+    padding: 0.7rem 1.6rem;
+    background-color: rgba(74, 153, 211, 1);
+    border-radius: 5px;
+}
+
+#upper{
+    position: relative;
+    right: 90px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    background: transparent;
+}
+#lower{
+    position: relative;
+    top: 93px;
+    margin-right: 20px;
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+    z-index: 2;
+}
+.first-ad figure{
+    display: flex;
+    width: 30%;
+}
+.trans-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 73%;
+    height: 1100px;
+    margin: 150px 0px 2rem 230px ;
+}
+.trans-items .item{
+    width: 30%;
+    height: 400px;
+}
+.what{
+    color: rgba(38, 0, 65, 1);
+    width: 45%;
+    position: relative;
+    right: 40px;
+    flex-basis: 200px;
+    line-height: 40px;
+    font-size: 35px;
+    letter-spacing: 4%;
+
+}
+.receive img{
+    position: relative;
+    right: 40px;
+}
+.receive, .buy, .send{
+    box-shadow: 0.1px 0.1px 20px rgba(140, 203, 248, 0.5), 0.1px 0.1px 20px rgba(139, 207, 255, 0.2);
+}
+.send, .buy{
+    flex-basis: 460px;
+}
+.receive{
+    flex-basis: 440px;
+    position: relative;
+    top: -250px;
+    left: 50px;
+}
+.buy{
+    position: relative;
+    top: 40px;
+}
+.send, .receive, .buy{
+    padding: 40px;
+}
+.buy img{
+    position: relative;
+    right: 50px;
+}
+
+.trans-items img{
+    margin: 20px 100px;
+    width: 50%;
+}
+.trans-items .trans-parag{
+    line-height: 26px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.direction{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.direction img{
+    width: 25px;
+    position: relative;
+    right: 160px;
+    
+}
+.direction a{
+   text-decoration: none;
+   color: rgba(74, 153, 211, 1);
+    
+}
+/* How it works section */
+.middle h2{
+    color: rgba(74, 153, 211, 1);
+    text-align: center;
+    margin-top: 70px;
+}
+.middle{
+    padding: 10px;
+    margin-top: 8rem;
+    height: 430px;
+    background-color: rgba(74, 153, 211, 0.1);
+}
+.how{
+    margin: 5rem auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.how p{
+    line-height: 26px;
+    text-align: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 200px;
+    gap: 20px;
+}
+
+.how img{
+    width: 25%;
+}
+/* What our client say section */
+.client-say{
+    padding: 10px;
+}
+.client-say h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.client-items{
+    display: flex;
+    justify-content: space-around;
+}
+.client-item{
+    margin-top: 110px;
+    width: 40%;
+    height: 325px;
+}
+.client-items .person{
+    position: relative;
+    left: -60px;
+    height: 370px;
+    background-color: rgba(74, 153, 211, 0.1);
+    width: 46%;
+}
+.client-items .words p{
+    color: rgba(15, 0, 26, 1);
+    line-height: 22px;
+}
+.client-items .words{
+    position: relative;
+    top: 40px;
+    left: -70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px 0px 30px;
+    width: 32%;
+    height: 280px;
+}
+.client-items .person img{
+    width: 60%;
+    position: relative;
+    left: 190px;
+    top: -110px;
+    
+}
+.client-items .words{
+    display: flex;
+}
+.client-item .comment{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.client-item .comment img{
+    width: 10%;
+}
+#blue, #white{
+    border-radius: 5px 0px 0px 5px;  
+    width: 65px;
+}
+.client-item .arrows{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    margin-left: 200px;
+}
+#blue{
+    background-color: rgba(74, 153, 211, 1);
+}
+#white{
+    background-color: white;
+}

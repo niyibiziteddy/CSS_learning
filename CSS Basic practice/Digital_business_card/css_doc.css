@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body{
+    background-color: #1C1C1C;
+}
+#card{
+    background-color: #1A1B21;
+    width: 318px;
+    height: 780px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+#card_container{
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+img{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.8;
+}
+#my_info{
+    color: white;
+    margin: 20px 0px;
+    text-align: center;
+}
+button{
+    display: block;
+    margin-inline: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 30%;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+button:hover{
+    color: white;
+}
+button:hover,#linkedIn:hover{
+    background-color: rgb(94, 91, 88);
+}
+.about{
+    color: white;
+    padding: 20px;
+}
+#interests,#about{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 150%;
+}
+#interests{
+    margin-top: 6px;
+}
+/* name */
+h2{
+    margin-bottom: 10px;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+/* frontend */
+#work{
+    color: #F3BF99;
+    font-size: 12.8px;
+    margin-bottom: 8px;
+}
+/* link */
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10.24px;
+    letter-spacing: 0%;
+}
+a:hover{
+    color: rgb(77, 77, 150);
+}
+.description{
+    color: #DCDCDC;
+    font-size: 10.24px;
+    font-weight: 400px;
+}
+#linkedIn{
+    background-color: rgb(96, 96, 238);
+    color: white;
+}
+footer{
+    background-color: #161619;
+    height: 75px;
+    border-radius: 0 0 10px 10px;
+}
+#footer{
+    width: 175px;
+    height: 11px;
+    text-align: center;
+    color: #FFFFFFA6;
+    font-size: 9px;
+    margin-inline: auto;
+    padding-top: 10%;
+
+}

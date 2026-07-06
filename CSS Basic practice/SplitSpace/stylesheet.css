@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body{
+    background-color: rgb(234, 237, 240);
+}
+#container{
+    width: 90%;
+    margin: 30px auto;
+    background-color: rgb(218, 221, 223);
+}
+header{
+    height: 100px;
+    background-color: orange;
+}
+#head{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#logo{
+    height: 100px;
+    width:  50px;
+    margin: 0px auto;
+}
+#house{
+    width: 100%;
+}
+#ourcompany, #sign_up, #input_fields{
+    margin: 60px auto;
+    width: 70%;
+    
+
+}
+h2{
+    color: #F28D00;
+}
+#ourcompany h2{
+    display: inline-block;
+    border-bottom: 3px solid #F28D00;
+    max-width: 150px;
+    width: 20%;
+}
+#ourcompany h2, #about p{
+    margin-bottom: 30px;
+}
+#input_fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+p{
+    font-size: 14px;
+    color: #787878;
+    font-weight: 700;
+}
+
+.inputs{
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#register{
+    width: 180px;
+    height: 55px;
+    border: 1px solid;
+    border-radius: 100px;
+    color: white;
+    background-color: #F28D00;
+    margin-bottom: 100px;
+}
+footer{
+    margin-top: 50px;
+    height: 60px;
+    background-color: white;
+}
+#footer{
+    padding: 20px;
+    text-align: center;
+}
